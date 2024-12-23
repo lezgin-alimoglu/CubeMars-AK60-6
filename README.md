@@ -12,9 +12,12 @@ Before you begin, here are a few important recommendations:
 2. **Update Motor Parameters:**  
    Update your motor parameters using the file available in the CubeMars Discord channel.
    
-2. **Change the Motor Mode:**   
+3. **Change the Motor Mode:**   
    By using upper computer program, change the motor mode which mode you will use. If you do not, this can be harmful for motor and burn some drivers.
 ---
+
+4. **Give the Permission for CAN**   
+   By using upper computer program, you should also give the permission for CAN protocol for motors---
 
 ### Files Included
 - **Arduino Codes:** Ready-to-use scripts for the AK60-6 model.  
