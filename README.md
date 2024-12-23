@@ -10,8 +10,10 @@ Before you begin, here are a few important recommendations:
    Visit the [official CubeMars article](https://www.cubemars.com/article.php?id=261) for crucial information. Be sure to read the documentation and watch the videos provided.  
 
 2. **Update Motor Parameters:**  
-   Update your motor parameters using the file available in the CubeMars Discord channel.  
-
+   Update your motor parameters using the file available in the CubeMars Discord channel.
+   
+2. **Change the Motor Mode:**   
+   By using upper computer program, change the motor mode which mode you mant to use. If you do not, this can be harmful for motor and burn some drivers.
 ---
 
 ### Files Included
