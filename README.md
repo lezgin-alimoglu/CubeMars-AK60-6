@@ -1,6 +1,6 @@
 # CubeMars AK60-6 Model
 
-This repository contains Arduino codes for the CubeMars AK60-6 motor. These codes can be calibrated based on your specific use case. Additionally, I have included a PDF documenting the process I followed.
+This repository contains Arduino codes for the CubeMars AK60-6 motor (This code also works for other AK-series motors). These codes can be calibrated based on your specific use case. Additionally, I have included a PDF documenting the process I followed.
 
 ## Getting Started
 
