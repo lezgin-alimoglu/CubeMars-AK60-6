@@ -153,19 +153,19 @@ void setup() {
 float rpm = 0.0;
 
 void loop() {
-  char rc;
-  rc = Serial.read();
-  Serial.println(rc);
-  delay(100);
-  comm_can_set_rpm(0x01, rpm);
-  if (rc == 'x') {
-    rpm = rpm + 1500.0;
-    SERIAL.print("increased");
-  }
-  if (rc == 's') {
-    rpm = rpm - 1500.0;
-    SERIAL.print("decreased");
-  }
-  
+  if (Serial.available()) {
+    char rc = Serial.read();
+    Serial.println(rc);
 
+    if (rc == 'x') {
+      rpm += 1500.0;
+      Serial.println("RPM increased");
+
+    } else if (rc == 's') {
+      rpm -= 1500.0;
+      Serial.println("RPM decreased");
+    }
+    delay(100);
+  }
+  comm_can_set_rpm(0x01, rpm);
 }
